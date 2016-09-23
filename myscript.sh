@@ -1,0 +1,21 @@
+#!/bin/bash
+mpirun -np 1 --hostfile myhosts --host 172.22.71.64 DenseParallel_v5
+mpirun -np 2 --hostfile myhosts --host 172.22.71.64 DenseParallel_v5
+mpirun -np 4 --hostfile myhosts --host 172.22.71.64 DenseParallel_v5
+mpirun -np 8 --hostfile myhosts --host 172.22.71.64 DenseParallel_v5
+mpirun -np 16 --hostfile myhosts --host 172.22.71.64 DenseParallel_v5
+mpirun -np 1 --hostfile myhosts --host 172.22.71.64 SparseParallel_v6
+mpirun -np 2 --hostfile myhosts --host 172.22.71.64 SparseParallel_v6
+mpirun -np 4 --hostfile myhosts --host 172.22.71.64 SparseParallel_v6
+mpirun -np 8 --hostfile myhosts --host 172.22.71.64 SparseParallel_v6
+mpirun -np 16 --hostfile myhosts --host 172.22.71.64 SparseParallel_v6
+mpirun -np 1 --hostfile myhosts --host 172.22.71.64 Sparse3937
+mpirun -np 2 --hostfile myhosts --host 172.22.71.64 Sparse3937
+mpirun -np 4 --hostfile myhosts --host 172.22.71.64 Sparse3937
+mpirun -np 8 --hostfile myhosts --host 172.22.71.64 Sparse3937
+mpirun -np 16 --hostfile myhosts --host 172.22.71.64 Sparse3937
+mpirun -np 1 --hostfile myhosts --host 172.22.71.64 Sparse1374
+mpirun -np 2 --hostfile myhosts --host 172.22.71.64 Sparse1374
+mpirun -np 4 --hostfile myhosts --host 172.22.71.64 Sparse1374
+mpirun -np 8 --hostfile myhosts --host 172.22.71.64 Sparse1374
+mpirun -np 16 --hostfile myhosts --hosts 172.22.71.64 Sparse1374
